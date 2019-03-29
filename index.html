@@ -5,44 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="container">
+            <header id="header">
+                <img id="header-img" src="">
+                <nav id="nav-bar">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#destinations">Destinations</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#video">Media</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#form">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div id="about">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit enim a ornare scelerisque. Nam eget posuere ligula. 
+                    Mauris vestibulum tellus nec mi commodo, nec aliquam nibh iaculis. 
+                    Sed auctor, magna in sagittis faucibus, lorem purus viverra lacus, eget mattis ex leo in tortor. 
+                    Donec ultricies iaculis eros, non cursus dolor tincidunt a. 
+                    Sed pharetra, dui in porta pharetra, nisl tortor imperdiet felis, suscipit sollicitudin eros nulla vel nisl. 
+                    Fusce laoreet turpis vitae urna bibendum porttitor. 
+                    Aenean mi est, suscipit et quam nec, accumsan convallis velit. 
+                    Donec efficitur mollis felis, at convallis purus dictum sit amet. Aliquam et quam dolor. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vitae cursus mi, ac tempus turpis.</p>
+                </div>
+                <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/lugard7P0nw" 
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div id="destinations">
 
-        <header id="header">
-            <img id="header-img" src="">
-            <nav id="nav-bar">
-                <ul>
-                    <li>
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#destinations">Destinations</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#video">Media</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#form">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="about">
-                <p></p>
-            </div>
-            <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/lugard7P0nw" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-            <div id="destinations">
-
-            </div>
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-                <input type="email" id="email" name="email" placeholder="Enter your email address">
-                <input type="submit" id="submit">
-            </form>
-        </main>
-
-
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+                </div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <input type="submit" id="submit">
+                </form>
+            </main>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
     </body>
 </html>
