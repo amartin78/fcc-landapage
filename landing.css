@@ -10,12 +10,17 @@ html, body {
   }
   
   header {
-  
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%
   }
   
   nav {
     display: flex;
     justify-content: flex-end;
+    margin-right: 6rem;
+    background-color: white;
   }
   
   nav ul {
@@ -29,13 +34,23 @@ html, body {
   a {
     text-decoration: none;
     color: #333;
-  
   }
   
-  #video {
+  #about {
+    margin: 7rem 0 3rem;
     display: flex;
-    flex-direction: row;
-    justify-self: center;
+    justify-content: space-around;
+  }
+  
+  #b-left, #b-right {
+    width: 40%;
+    text-align: justify;
+    display: flex;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
   }
   
   @media (max-width: 550px) {
