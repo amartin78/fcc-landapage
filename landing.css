@@ -125,7 +125,6 @@ html, body {
   .cardDetails {
     margin-top: 0.8rem;
     text-align: center;
-    /* background-color: gainsboro; */
     padding: 0.4rem;
   }
   
@@ -139,6 +138,7 @@ html, body {
 
   button:hover {
     cursor: pointer;
+    background-color: hsl(182, 50%, 65%);
   }
 
   @media (max-width: 550px) {
