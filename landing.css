@@ -13,14 +13,14 @@ html, body {
     position: fixed;
     top:0;
     right: 0;
-    width: 100%
+    width: 100%;
+    background-color: white;
   }
   
   nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 6rem;
-    background-color: white;
   }
   
   nav ul {
@@ -52,11 +52,46 @@ html, body {
     display: flex;
     justify-content: center;
   }
+
+  .cardImage img {
+    width: 100%;
+  }
+
+  .cardText {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 1.2rem 0.3rem 0 0;
+  }
+
+  .price1 {
+    font-size: 0.8rem;
+    margin: 0 0.4rem 0.5rem 0;
+  }
+
+  .price2 {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+
+  .cardDetails {
+    margin-top: 0.8rem;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 0.4rem;
+  }
   
+  .cardButton {
+      width: 90%;
+      padding: 0.3rem;
+      font-size: 0.8rem;
+      background-color: #e0bdab;
+      color: white;
+  }
   @media (max-width: 550px) {
     nav ul {
         display: flex;
         flex-direction: column;
-        
+
     }
   }
