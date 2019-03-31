@@ -16,6 +16,10 @@ html, body {
     width: 100%;
     background-color: white;
   }
+
+  #header-img {
+    width: 100%;
+  }
   
   nav {
     display: flex;
@@ -35,11 +39,24 @@ html, body {
     text-decoration: none;
     color: #333;
   }
+
+  #portrait {
+      width: 114%;
+  }
+
+  #portrait-img {
+    width: 110%;
+    height: 43rem;
+    margin-left: -5rem;
+  }
+  
   
   #about {
-    margin: 7rem 0 3rem;
+    margin: 0px;
     display: flex;
     justify-content: space-around;
+    padding-top: 4rem;
+    font-size: 1.2rem;
   }
   
   #b-left, #b-right {
@@ -53,6 +70,11 @@ html, body {
     justify-content: center;
   }
 
+  #video {
+    padding-top: 8rem;
+    margin-top: -3rem;
+  }
+
   #destinations {
     margin: 4rem 0;
     display: flex;
@@ -63,6 +85,20 @@ html, body {
     width: 20%;
     border: 1px solid #999;
     margin: 4rem 0;
+  }
+
+  .cardImage {
+      position: relative;
+  }
+
+  .label {
+    position: absolute;
+    bottom: 14px;
+    margin: 0px;
+    padding: 0.2rem 0 0.2rem 1.8rem;
+    color: white;
+    width: 40%;
+    background-color: cadetblue;
   }
 
   .cardImage img {
@@ -89,7 +125,7 @@ html, body {
   .cardDetails {
     margin-top: 0.8rem;
     text-align: center;
-    background-color: #f0f8ff;
+    /* background-color: gainsboro; */
     padding: 0.4rem;
   }
   
@@ -97,9 +133,14 @@ html, body {
       width: 90%;
       padding: 0.3rem;
       font-size: 0.8rem;
-      background-color: #e0bdab;
+      background-color: cadetblue;
       color: white;
   }
+
+  button:hover {
+    cursor: pointer;
+  }
+
   @media (max-width: 550px) {
     nav ul {
         display: flex;
