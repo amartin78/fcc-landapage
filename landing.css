@@ -53,6 +53,17 @@ html, body {
     justify-content: center;
   }
 
+  #destinations {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .thumbnail {
+    width: 20%;
+    border: 1px solid #999;
+  }
+
   .cardImage img {
     width: 100%;
   }
