@@ -54,7 +54,9 @@ html, body {
   }
   
   @media (max-width: 550px) {
-    header {
-      font-size: 1rem;
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        
     }
   }
