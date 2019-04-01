@@ -169,10 +169,27 @@ html, body {
   }
 
   footer {
-      width: 114%;
-      margin-left: -4rem;
-      background-color: cadetblue;
+    width: 112%;
+    margin-left: -4rem;
+    background-color: cadetblue;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
+
+  #attribute {
+      justify-self: start;
+      margin-left: 6rem;
+      align-self: center;
+  }
+
+  #copyright {
+    justify-self: end;
+    margin-right: 6rem;
+    align-self: center;
+  }
+
+
 
   @media (max-width: 550px) {
     nav ul {
