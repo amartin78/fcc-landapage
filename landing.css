@@ -17,29 +17,42 @@ html, body {
     right: 0;
     width: 100%;
     background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
   #header-img {
-    width: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: flex-start;
+    margin: -2rem 0 -2rem 6rem;
   }
   
   nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 6rem;
+    margin-right: 3rem;
   }
   
   nav ul {
     list-style: none;
-    width: 42%;
+    width: 75%;
     display: flex;
     justify-content: space-around;
     font-size: 1.3rem;
+  }
+
+  nav li {
+      align-self: center;
   }
   
   a {
     text-decoration: none;
     color: white;
+  }
+
+  nav a:hover {
+    color: #333;
   }
 
   #portrait {
@@ -52,12 +65,11 @@ html, body {
     margin-left: -5rem;
   }
   
-  
   #about {
     margin: 0px;
     display: flex;
     justify-content: space-around;
-    padding-top: 4rem;
+    padding-top: 5rem;
     font-size: 1.2rem;
   }
   
@@ -192,7 +204,7 @@ html, body {
       font-weight: bolder;
   }
 
-  #attribute a:hover {
+  #attribute a:hover, #copyright a:hover {
     cursor: pointer;
     color: #333;
   }   
@@ -203,12 +215,11 @@ html, body {
     align-self: center;
   }
 
-
-
   @media (max-width: 550px) {
     nav ul {
         display: flex;
         flex-direction: column;
-
     }
   }
+
+
