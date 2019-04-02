@@ -78,7 +78,7 @@ html, body {
   }
 
   #destinations {
-    margin: 4rem 0;
+    margin: 4rem 0 2rem 0;
     display: flex;
     justify-content: space-around;
   }
@@ -139,7 +139,6 @@ html, body {
   }
 
   button:hover {
-    cursor: pointer;
     background-color: hsl(182, 50%, 65%);
   }
 
@@ -147,6 +146,7 @@ html, body {
     display: grid;
     grid-template-columns: 14rem;
     justify-content: space-around;
+    margin-bottom: 3rem;
   }
 
   #email {
@@ -168,6 +168,10 @@ html, body {
     color: white;
   }
 
+  input[type="submit"]:hover {
+    background-color: hsl(15, 60%, 60%);
+  }
+
   footer {
     width: 112%;
     margin-left: -4rem;
@@ -178,10 +182,20 @@ html, body {
   }
 
   #attribute {
-      justify-self: start;
-      margin-left: 6rem;
-      align-self: center;
+    display: flex;  
+    justify-self: start;
+    align-items: center;
+    margin-left: 6rem;
   }
+
+  #attribute a {
+      font-weight: bolder;
+  }
+
+  #attribute a:hover {
+    cursor: pointer;
+    color: #333;
+  }   
 
   #copyright {
     justify-self: end;
