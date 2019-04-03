@@ -27,10 +27,6 @@ html, body {
     justify-content: flex-start;
     margin: -2rem 0 -2rem 6rem;
   }
-
-  #header-img a {
-
-  }
   
   nav {
     display: flex;
@@ -167,9 +163,10 @@ html, body {
 
   #email {
     display: grid;
-    width: 14rem;
+    width: 13rem;
     font-size: 0.7rem;
-    padding: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid #333;
   }
 
   input[type="submit"] {
@@ -214,6 +211,7 @@ html, body {
   }   
 
   #copyright {
+    display: flex;
     justify-self: end;
     margin-right: 6rem;
     align-self: center;
@@ -249,6 +247,41 @@ html, body {
         height: 190px;
         padding-top: 14rem;
         margin-top: -12rem;
+    }
+
+    #destinations {
+        flex-direction: column;
+        padding-top: 16rem;
+        margin: -12rem 0rem 2rem 0rem;
+    }
+
+    .thumbnail {
+        width: 65%;
+        margin: 1rem auto;
+    }
+
+    #form {
+        margin: 3rem 0 2.5rem;
+    }
+
+    footer {
+        margin-left: -1rem;
+        grid-template-columns: 100%;
+    }
+
+    #attribute {
+        justify-self: center;
+        margin: 0rem;
+    }
+
+    #copyright {
+        display: grid;
+        justify-self: center;
+        margin: 0 0 1rem 0;
+    }
+
+    #copyright p {
+        margin: 0rem;
     }
   }
 
