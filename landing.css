@@ -29,7 +29,7 @@ html, body {
   }
 
   #header-img a {
-      
+
   }
   
   nav {
@@ -223,6 +223,32 @@ html, body {
     nav ul {
         display: flex;
         flex-direction: column;
+    }
+
+    header {
+        grid-template-columns: none;
+    }
+
+    #header-img {
+        width: 40%;
+        display: flex;
+        margin: -1.2rem auto -2.4rem;
+    }
+
+    #portrait-img {
+        height: auto;
+        margin: 13rem 0 -12rem -1rem;
+    }
+
+    #about {
+        padding-top: 14rem;
+    }
+
+    #video {
+        width: 290px;
+        height: 190px;
+        padding-top: 14rem;
+        margin-top: -12rem;
     }
   }
 
