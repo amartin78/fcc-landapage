@@ -239,6 +239,7 @@ html, body {
     }
 
     header {
+        z-index: 2;
         grid-template-columns: none;
     }
 
@@ -270,6 +271,7 @@ html, body {
     }
 
     #destinations {
+        z-index: 1;
         flex-direction: column;
         padding-top: 16rem;
         margin: -12rem 0rem 2rem 0rem;
