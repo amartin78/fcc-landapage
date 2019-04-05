@@ -12,6 +12,7 @@ html, body {
   }
   
   header {
+    z-index: 2;
     position: fixed;
     top:0;
     right: 0;
@@ -46,7 +47,7 @@ html, body {
       align-self: center;
   }
   
-  a {
+  a, container a {
     text-decoration: none;
     color: white;
   }
@@ -81,17 +82,17 @@ html, body {
   }
 
   #about {
-    margin: -8rem 0 0 0;
-    display: flex;
+    margin: -11rem 0 0 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
     justify-content: space-around;
-    padding-top: 5rem;
+    padding-top: 7rem;
     font-size: 1.2rem;
   }
   
-  #b-left, #b-right {
-    width: 40%;
+  #about p {
+    margin: 0 1.8rem;
     text-align: justify;
-    display: flex;
   }
 
   .media {
@@ -105,6 +106,7 @@ html, body {
   }
 
   #destinations {
+    z-index: 1;
     margin: 4rem 0 2rem 0;
     display: flex;
     justify-content: space-around;
@@ -238,8 +240,7 @@ html, body {
         flex-direction: column;
     }
 
-    header {
-        z-index: 2;
+    #header {
         grid-template-columns: none;
     }
 
@@ -259,19 +260,19 @@ html, body {
     }
 
     #about {
-        padding-top: 14rem;
+        grid-template-columns: 1fr;
+        padding-top: 16rem;
         margin-top: 0rem;
     }
 
     #video {
         width: 290px;
         height: 190px;
-        padding-top: 14rem;
+        padding-top: 17rem;
         margin-top: -12rem;
     }
 
     #destinations {
-        z-index: 1;
         flex-direction: column;
         padding-top: 16rem;
         margin: -12rem 0rem 2rem 0rem;
