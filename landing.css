@@ -253,8 +253,13 @@ html, body {
         margin: 13rem 0 -12rem -1rem;
     }
 
+    #offer {
+        display: none;
+    }
+
     #about {
         padding-top: 14rem;
+        margin-top: 0rem;
     }
 
     #video {
