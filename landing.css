@@ -64,9 +64,24 @@ html, body {
     height: 43rem;
     margin-left: -5rem;
   }
-  
+
+  #offer {
+    position: relative;
+    width: 40%;
+    bottom: 15rem;
+    left: -5rem;
+    background-color: rgba(95,158,160,0.8);
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  #offer p {
+    padding: 2rem;
+  }
+
   #about {
-    margin: 0px;
+    margin: -8rem 0 0 0;
     display: flex;
     justify-content: space-around;
     padding-top: 5rem;
